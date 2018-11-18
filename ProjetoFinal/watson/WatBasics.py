@@ -190,9 +190,7 @@ class WatBaiscs:
 
                     if ind - 3 >= 0:
                         var3 = auxfrase[ind - 3]
-                    var1 = auxfrase[ind - 1]
-                    var2 = auxfrase[ind - 2]
-                    var3 = auxfrase[ind - 3]
+
                     if var1 in valnv:
                         valp.remove(palavra)
                         dicPizza[palavra] = valnk[valnv.index(var1)]
